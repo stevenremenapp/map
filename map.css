@@ -1,0 +1,35 @@
+body {
+  background: purple;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.modalimage {
+  width: 100%;
+  height: auto;
+}
+
+/*.modal-body {
+  padding: 25px;
+}*/
+
+.modal-dialog {
+  width: 80%;
+  margin: 5% auto;
+  color: pink;
+}
+
+.modal-header {
+  background: #04a08b;
+}
+
+.modal-body {
+  background: #665d27;
+}
+
+.modal-footer {
+  background: #e0dfdb;
+}
