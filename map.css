@@ -30,6 +30,14 @@ img {
   background: #665d27;
 }
 
+.columns {
+  background: #665d27;
+}
+
 .modal-footer {
   background: #e0dfdb;
+}
+
+area {
+  outline: 2px solid pink;
 }
