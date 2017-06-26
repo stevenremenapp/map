@@ -1,0 +1,52 @@
+.floorplan {
+    position: relative;
+    margin: 20px;
+}
+img {
+    width: 100%;
+}
+.stop {
+    display: block;
+    position: absolute;
+    width: 5%;
+    height: 12%;
+}
+#stop1 {
+    left: 18%;
+    top: 42%;
+}
+#stop2 {
+    left: 43%;
+    top: 48%;
+}
+#stop3 {
+    left: 68%;
+    top: 50%;
+}
+#stop4 {
+  left: 78%;
+  top: 18%;
+  opacity: 0.5;
+}
+#stop5 {
+  left: 86%;
+  top: 80%;
+}
+#stop6 {
+  left: 8%;
+  top: 75%;
+}
+#stop7 {
+  left: 5%;
+  top: 12%;
+  opacity: 0.5;
+}
+#stop8 {
+  left: 45%;
+  top: 1%;
+}
+#stop9 {
+  left: 47.5%;
+  top: 74%;
+  opacity: 0.5;
+}

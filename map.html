@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAP!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="map.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="floorplan">
+        <img src="map-image.jpg">
+        <a class="stop" id="stop1" href="#"><img src="map-marker.png" alt="stop1"></a>
+        <a class="stop" id="stop2" href="#"><img src="map-marker.png" alt="stop2"></a>
+        <a class="stop" id="stop3" href="#"><img src="map-marker.png" alt="stop3"></a>
+        <a class="stop" id="stop4" href="#stop4" data-toggle="modal" data-target="#stop4modal" alt="library service 4" name="library service 4" title="library service 4"><img src="map-marker.png" alt="stop4"></a>
+        <a class="stop" id="stop5" href="#"><img src="map-marker.png" alt="stop5"></a>
+        <a class="stop" id="stop6" href="#"><img src="map-marker.png" alt="stop6"></a>
+        <a class="stop" id="stop7" href="#stop7" data-toggle="modal" data-target="#stop7modal" alt="library service 7" name="library service 7" title="library service 7"><img src="map-marker.png" alt="stop7"></a>
+        <a class="stop" id="stop8" href="#"><img src="map-marker.png" alt="stop8"></a>
+        <a class="stop" id="stop9" href="#stop9" data-toggle="modal" data-target="#stop9modal" alt="library service 9" name="library service 9" title="library service 9"><img src="map-marker.png" alt="stop9"></a>
+    </div>
+
+      <!-- Stop 4 Modal -->
+      <div class="modal fade" id="stop4modal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Stop 4 Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Stop 4 Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in modal 4.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stop 7 Modal -->
+      <div class="modal fade" id="stop7modal" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+          <!-- Stop 7 Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Stop 7 Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in modal 7.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stop 9 Modal -->
+      <div class="modal fade" id="stop9modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+          <!-- Stop 9 Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Stop 9 Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in modal 9.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
