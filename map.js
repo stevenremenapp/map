@@ -28,11 +28,12 @@ $('div.modal button.close').on('click', function() {
 
 //when esc pressed when modal open simulate back
 $('div.modal').keyup(function(e) {
-  if (e.keyCode == 27) {
+  if (e.keyCode === 27) {
     window.history.back();
   }
 });
 
+//show modal if url entered in web address bar
 var hash = window.location.hash;
 if (hash != ''){
     $(hash).modal('show');
