@@ -37,8 +37,3 @@ var hash = window.location.hash;
 if (hash != ''){
     $(hash).modal('show');
 };
-
-$('#stop4modal').on('show.bs.modal', function () {
-    $('.modal .modal-body').css('overflow-y', 'auto');
-    $('.modal .modal-body').css('max-height', $(window).height() * 0.7);
-});
