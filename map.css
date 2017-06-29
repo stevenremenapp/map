@@ -16,6 +16,7 @@ img {
 #stop1 {
     left: 18%;
     top: 42%;
+    opacity: 0.25;
 }
 #stop2 {
     left: 43%;
